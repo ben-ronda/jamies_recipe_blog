@@ -1,0 +1,5 @@
+name = Simple Contact
+description = For defaulting removing "Send yourself a copy" checkbox and the subject line.
+package = Epicodus Examples
+core = 7.x
+files[] = simple_contact.module

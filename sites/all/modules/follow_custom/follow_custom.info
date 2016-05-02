@@ -1,0 +1,5 @@
+name = Custom Follow
+description = Alter for the follow module.
+package = Epicodus Examples
+core = 7.x
+files[] = follow_custom.module

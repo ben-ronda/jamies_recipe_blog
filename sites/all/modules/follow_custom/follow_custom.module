@@ -1,0 +1,11 @@
+<?php
+  function follow_custom_follow_networks_alter(&$networks, $uid = 0){
+    print '<pre>';
+    print_r($networks);
+    print '</pre>';
+
+    $networks[$uid]['github'] = array(
+      'title' => t('github'),
+      'domain'=> 'github.com',
+    );
+  }
