@@ -1,0 +1,19 @@
+<?php
+  function help_text_form_alter(&$form, &$form_state, $form_id){
+    print_r($form_id);
+    // if ($form_id == 'recipe_node_form'){
+    //   print '<pre>';
+    //   print_r($form);
+    //   print '</pre>';
+    //   $form['field_ingredients']['und'][0]['#title'] = 'NOTICE ME SENPAI';
+    //   // $form['field_directions']['field_ingredients']['und'][0]['#description'] = 'HEY NOTICE ME SENPAI';
+    // }
+    if ($form_id == 'field_ui_field_edit_form'){
+      print '<pre>';
+      print_r($form);
+      print '</pre>';
+      $form['instance']['description']['#format'] = 'plain_text';
+      $form['instance']['description']['#description'] = 'HI!';
+
+    }
+  }

@@ -1,0 +1,5 @@
+name = Help Text Alter
+description = For turning help text textbox into the plain text format when creating a field for custom content type.
+package = Ben's Over-Ambitous Attempts
+core = 7.x
+files[] = help_text.module
